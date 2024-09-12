@@ -63,69 +63,99 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* My Code starts here */
 
 body {
-	margin: 20px 100px;
+    width: 65%;
+     margin: 0 auto;
 }
 
-.nav-container {
-	display: flex;
+  .nav-container {
+    display: flex;
 	justify-content: space-evenly;
 	flex-direction: row;
 	margin: 20px;
-}
+  }
+  
+  .service-header {
+    display: flex;
+    flex-direction: column;
+  }
 
-.navigation a {
-	color: gray;
-	margin: 30px 40px 0 40px;
-}
+  h1 {
+      font-size: 30px;
+  }
+  
+  .hr {
+    margin: 40px auto;
+    height: 1px;
+    background: black;
+    border: black;
+  }
+  
+  .services-body {
+    align-items: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  
+  .service-header-img {
+    margin: 30px 0;
+  }
+  
+  .body-child {
+    align-content: space-between;
+    background: rgb(244, 243, 244);
+    border: thin solid black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 410px;
+  }
+  
+  .body-child a {
+    background-color: white;
+    border-radius: 5px;
+    border: thin solid black;
+    color: black;
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+    width: 35%;
+  }
 
-.title {
-	font: 5em sans-serif;
+  .hr2 {
+    margin-top: 2px;
+    margin-bottom: 50px;
+    height: 3px;
+    background: black;
+    border: black;
+  }
+  
+  .section-facts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  
+  .facts-content {
+    width: 45%;
+  }
+  
+  .facts-content ul {
+    margin: 20px 0 0 20px;
+    list-style-type: square;
+  }
+  
+  .facts-content ul li {
+    margin-top: 10px;
+  }
+
+  .copyright {
 	text-align: center;
-}
-
-.title-container {
-	display: flex;
-	justify-content: space-evenly;
-}
-
-button {
-	width: 150px;
-	height: 40px;
-}
-
-.text-area2 {
-	display: flex;
-}
-
-.column2 {
-	width: 48%;
-	justify-content: space-around;
-	margin: 5px;
-}
-
-body {
-	margin: 20px 100px;
-}
-
-.text-area3 {
-	display: flex;
-}
-
-.column3 {
-	margin:5px;
-	width: 32%;
-	justify-content: space-around;
-}
-
-.copyright {
-	text-align: center;
-	margin: 30px;
-}
-
-.middle-img {
-	margin: 30px;
-	width: 1050px;
 }
